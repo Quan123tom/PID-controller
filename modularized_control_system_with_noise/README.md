@@ -18,7 +18,7 @@ To combat the 8-cc latency the controller was tuned using Phase Margin analysis.
 * Critical Damping: The system was fine-tuned to have a critically damped (ζ = 0.707) response that ptovides the fastest settling time and introduces no overshoot.
 ## Verification of the design via closed loop TB:
 The system was verified using a SystemVerilog testbench that simulates a physical "Plant" (integrator model).
-* Noise injection: andom Gaussian noise was added to the plant feedback to validate the FIR filter's efficacy in preventing "D-term jitter."
+* Noise injection: random Gaussian noise was added to the plant feedback to validate the FIR filter's efficacy in preventing "D-term jitter."
 * Results: The simulation confirms that the controller successfully stabilizes the plant at the desired setpoint despite the 80ns transport delay (at 100MHz).
 ## Project Visuals:
   ![The block design of my project](../docs/block_design.png)
