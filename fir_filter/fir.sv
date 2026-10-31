@@ -46,7 +46,7 @@ end
 always_ff @(posedge CLK) begin
     s3 <= s2_a + s2_b;
 end
-// 5th stage (division by 3)
+    // 5th stage (division by 8)
 always_ff @(posedge CLK) begin
     out_data <= s3 >>> 3;
 end
