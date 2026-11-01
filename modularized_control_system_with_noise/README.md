@@ -39,7 +39,7 @@ The derivative term amplifies sensor noise by about 8× even with the filter. Th
 
 ### Stability limit
 
-Peak-to-peak of the plant output in steady state (setpoint 1000, so a value near 2 to 30 is noise only):
+Peak-to-peak of the plant output in steady state, with desired state = 1000:
 
 | Kp | 8 | 50 | 100 | 200 | 250 | 300 | 400 |
 |---|---|---|---|---|---|---|---|
