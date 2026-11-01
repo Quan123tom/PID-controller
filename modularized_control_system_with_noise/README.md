@@ -51,4 +51,4 @@ Peak-to-peak of the plant output in steady state, with desired state = 1000:
 
 ### Conclusion
 
-The filter trades about 3 to 8× less output noise for a lower maximum stable gain: instability begins around `Kp` 200 to 250 with it, and beyond 400 without it. At the demonstration gain (`Kp = 8`) the loop is more than 20× below its limit, so latency is not the constraint here. A plant with faster dynamics would be.
+The filter trades about 3 to 8× less output noise for a lower maximum stable gain: instability begins around `Kp` 200 to 250 with it, and above 400 it is not used. 
